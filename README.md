@@ -1,4 +1,4 @@
 # SDLC
 Course completion certificate 
 
- ![Image Alt]([https://github.com/nandani952/SDLC/blob/4b22ba06b74dbac00f14ab8c4878c9722ddebfed/Screenshot%20(300).png?raw=true])
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/83e5adf9-b882-4abe-ab73-c0781f28f548" />
