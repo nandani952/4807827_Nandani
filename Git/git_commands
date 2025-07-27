@@ -1,1 +1,57 @@
+Git commands :
+
+git clone
+git init
+git pull
+git diff
+git add .
+git status
+git stash/commit
+git log 
+git push
+git branch task1
+git branch task2
+git checkout task2
+git merge task1
+git log
+git checkout -b task3
+git branch -a
+git tag
+
+**********************************************************************************************************************************
+
+Git commands with their description :
+
+1. git init -> to create new repository.
+2. git add . / git add filename -> add changes from working directory to staging area.
+3. git status -> listing all changed or added files.
+4. git log -> Show commit logs with stats like who did, where , time ,etc .
+5. git config --list -> list all the details or verify configuration also other configurations will be displayed as well.
+6. git pull -> to update local branch with remote repository changes.
+7. git commit -m "message" -> to commit your staged changes.
+8. git push -> push all branches to remote repository .
+9. git clone -> create a local copy of a remote repository.
+10. git fetch -> check for the changes in local or remote repository.
+11. git commit --amend -m "message" -> appending changes to already committed files.
+12. git branch branchname -> to create a new branch.
+13. git checkout branchname -> switch to different branch.
+14. git checkout -b branchname -> create & switch to new branch.
+15. git branch -> list all the branches.
+16. git branch -d branchname -> delete a branch from repository.
+17. git diff -> to check the changes or differences whit are yet to be committed.
+18. git diff branch1 branch2 -> to check differences between 2 branches.
+19.  merging a branch with another ->
+	git checkout destination_branch
+	git merge branch_to_merge   
+20. git diff sourcebranch targetbranch -> to preview changes before merging.
+21. git revert -> undo a public commit.
+22. git remote add origin __ -> connect to local repository to remote repository.
+23. git remote -v -> listing all currently configured remote repositories.
+24. git tag -> listing all tags.
+25. git tag -d tagname -> delete local tag.
+26. git reset: Undo commits by moving branch reference.
+27. git branch -a -> list all branches.
+28. git reset --soft HEAD~1 -> rollback to staging area.
+29. git reset --hard HEAD~1 -> delete the current head by 1 commit.
+	 ( prefer only soft HEAD)
 
