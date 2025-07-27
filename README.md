@@ -5,4 +5,4 @@ Course completion certificate - Agile
 
 Git Certificate 
 
-[git_cert.pdf](https://github.com/user-attachments/files/21452160/git_cert.pdf)
+<img width="1148" height="818" alt="Image" src="https://github.com/user-attachments/assets/0fd20dc7-132e-49a5-ab28-f71ac70827b0" />
