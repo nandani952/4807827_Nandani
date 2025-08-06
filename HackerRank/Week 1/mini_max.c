@@ -1,26 +1,19 @@
 #include <stdio.h>
-int main(){
+int main() {
     int arr[5];
-    for(int i=0;i<=4;i++){
-        scanf("%d",&arr[i]);
-    }
-    int sum=0;
-    int sum2=0;
-    int n = sizeof(arr) / sizeof(arr[0]);
-    for (int i = 0; i < n - 1; i++) {
-        for (int j = 0; j < n - i - 1; j++) {
-            if (arr[j] > arr[j + 1]) {
-                int temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
-            }
-        }
-    }
-   for(int i=0;i<=3;i++){
+    long sum=0;
+    for(int i=0;i<5;i++){
+        scanf("%d",arr+i);
         sum+=arr[i];
     }
-    for(int i=1;i<=4;i++){
-        sum2+=arr[i];
+    int min=arr[0];
+    int max=arr[0];
+    for(int i=1;i<5;i++){
+        if(arr[i]>max)
+            max=arr[i];
+        if(arr[i]<min)
+            min=arr[i];
     }
-    printf("%d %d",sum,sum2);
+    printf("%ld %ld",sum-max,sum-min);
+    return 0;
 }
